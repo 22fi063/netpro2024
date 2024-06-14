@@ -110,7 +110,7 @@ class GUIAniMultiTCPClient2 {
 			// writer.flush();
 
 			// サーバーからのメッセージ読み取り
-			ne getline = rd.readLine();
+			String getline = rd.readLine();
 			System.out.println("Message from Server:" + getline);
 
 			// 終了処理
